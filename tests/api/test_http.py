@@ -20,6 +20,6 @@ def test_second_request():
 
 @pytest.mark.http
 def test_status_code_request():
-    r = requests.get('https://api.github.com/users/khrystyna_ivakhniuk')
+    r = requests.get('https://api.github.com/users/kristina_ivakhniuk')
 
     assert r.status_code == 404
